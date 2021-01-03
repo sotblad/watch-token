@@ -19,7 +19,7 @@ export default {
           4: 'rinkeby',
           42: 'kovan',
           5: 'goerli',
-          0x38: 'bsc',
+          56: 'bsc',
         },
         list: {
           mainnet: {
@@ -55,7 +55,7 @@ export default {
           bsc: {
             web3Provider: `https://bsc-dataseed.binance.org/`,
             etherscanLink: 'https://bscscan.com/',
-            id: 0x38,
+            id: 56,
             name: 'Main Binance Smartchain Network',
           },
         },
