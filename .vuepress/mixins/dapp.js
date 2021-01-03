@@ -19,6 +19,7 @@ export default {
           4: 'rinkeby',
           42: 'kovan',
           5: 'goerli',
+          97: 'bsc',
         },
         list: {
           mainnet: {
@@ -50,6 +51,12 @@ export default {
             etherscanLink: 'https://goerli.etherscan.io',
             id: 5,
             name: 'Goerli Test Network',
+          },
+          bsc: {
+            web3Provider: `https://data-seed-prebsc-1-s1.binance.org:8545`,
+            etherscanLink: 'https://explorer.binance.org/smart-testnet',
+            id: 97,
+            name: 'Binance Smartchain Test Network',
           },
         },
       },
